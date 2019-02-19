@@ -1,0 +1,65 @@
+$blue: #465ad2;
+$red: #e71340;
+$border: #ebebeb;
+
+$bg: #4F000B;
+$itemBg1: #720026;
+$itemBg2: #CE4257;
+$itemBg3: #FFC093;
+$itemBg4: #FF7F51;
+$counterBg: #222;
+
+
+// 通用css
+body {
+    background-color: rgb(241, 241, 241);
+    padding: 0;
+    margin: 0
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+    li {
+        list-style: none;
+    }
+}
+input, button, textarea {
+    outline: none;
+}
+
+
+
+
+
+.main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 40px auto 0;
+    // padding: 0 40px;
+    .content {
+        width: 100%;
+        padding-right: 40px
+    }
+}
+  
+.title {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+    overflow: hidden;
+    a {
+        color: #c8c8c8;
+    }
+    .mailexamine {
+        background-color: #259b24;
+        float: right;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        color: #fff;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
